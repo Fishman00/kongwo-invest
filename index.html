@@ -330,6 +330,10 @@
     /* 目标进度条 */
     .goal-bar-wrap{width:100%}
     .goal-info h4{font-size:15px}
+    /* 三年规划时间线 */
+    section>div[style*="display:flex;gap:24px"]{flex-direction:column!important;gap:14px!important}
+    section>div[style*="display:flex;gap:24px"]>div:first-child{width:60px!important;align-self:center}
+    section>div[style*="display:flex;gap:24px"]>div:first-child>div{font-size:15px!important;padding:10px 6px!important}
   }
   @media(max-width:480px){
     h1{font-size:24px}h2{font-size:21px}
@@ -354,7 +358,7 @@
     <a href="#sdgs">SDGs</a>
     <a href="#ecosystem">闭环生态</a>
     <a href="#revenue">收入模式</a>
-    <a href="#goals">年度目标</a>
+    <a href="#goals">三年规划</a>
     <a href="#cta">合作邀约</a>
   </div>
 </nav>
@@ -365,9 +369,9 @@
   <h1>用疗愈重新定义<br><span>组织效能</span>与<span>个人成长</span></h1>
   <p class="subtitle">KONGWO 企业情绪管理 × UNIHEAL 联合国训练研究所认证疗愈师<br>构建 To-B + To-C 双引擎闭环生态，让「身心平衡即生产力」成为现实</p>
   <div class="hero-stats">
-    <div class="hero-stat"><div class="num">1000+</div><div class="label">个人付费客户</div></div>
-    <div class="hero-stat"><div class="num">50+</div><div class="label">企业客户</div></div>
-    <div class="hero-stat"><div class="num">100+</div><div class="label">累计线下沙龙</div></div>
+    <div class="hero-stat"><div class="num">3年</div><div class="label">打造华东疗愈行业标杆</div></div>
+    <div class="hero-stat"><div class="num">500+</div><div class="label">认证疗愈师输出目标</div></div>
+    <div class="hero-stat"><div class="num">100家</div><div class="label">企业EAP服务覆盖</div></div>
   </div>
   <div class="scroll-hint">↓ 向下滚动探索更多</div>
 </section>
@@ -604,61 +608,122 @@
     <div class="team-section-title">代表导师阵容（30+人，均有专业背书）</div>
     <div class="mentor-stat">
       <div class="ms-item"><div class="num">30+</div><div class="label">签约导师数量</div></div>
-      <div class="ms-item"><div class="num">6大</div><div class="label">专业领域覆盖</div></div>
+      <div class="ms-item"><div class="num">8大</div><div class="label">专业领域覆盖</div></div>
       <div class="ms-item"><div class="num">100%</div><div class="label">持有专业资质认证</div></div>
-      <div class="ms-item"><div class="num">20年+</div><div class="label">平均从业经验</div></div>
+      <div class="ms-item"><div class="num">15年+</div><div class="label">平均从业经验</div></div>
     </div>
   </div>
 
   <!-- 导师代表 -->
   <div class="mentor-grid">
     <div style="background:white;border-radius:12px;padding:18px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.04)">
-      <div style="font-size:13px;font-weight:700;color:var(--dark)">李晓春</div>
-      <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">商业化导师</div>
-      <div style="font-size:11px;color:var(--text-light)">中旭教育金牌讲师 · 20年从业 · 杭州市创业导师</div>
+      <div style="font-size:13px;font-weight:700;color:var(--dark)">鲍瑛瑛</div>
+      <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">理性金融专家 / 感性心灵导师 / 女性成长赋能者</div>
+      <div style="font-size:11px;color:var(--text-light);line-height:1.6">20年从业经验，倡导"少折腾稳赚钱"理念，推广标准普尔家庭资产配置模型。开发系统课程，举办超100场线下沙龙，结合正念冥想与财富管理，设计"财富关系冥想"课程。关注女性决策特质（如生理期共情），赋能女性高管将情绪感知转化为战略洞察。</div>
+    </div>
+    <div style="background:white;border-radius:12px;padding:18px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.04)">
+      <div style="font-size:13px;font-weight:700;color:var(--dark)">刘不可</div>
+      <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">心理咨询师 / 成长导师 / 愈商学社课程负责人</div>
+      <div style="font-size:11px;color:var(--text-light);line-height:1.6">加州整合大学（CIIS）应用心理学硕士 · SRI自我整合执行师 · 音乐心理咨询师 / 唱诵疗愈师 · 16年心理成长探索经验 · 13年心理咨询与心理行业从业经验。深耕于心理疗愈与自我整合领域，擅长讲解情绪、原生家庭议题、爱自己的实践路径与内在小孩疗愈等课程。</div>
     </div>
     <div style="background:white;border-radius:12px;padding:18px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.04)">
       <div style="font-size:13px;font-weight:700;color:var(--dark)">向丽娟</div>
       <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">疗愈空间营造师</div>
-      <div style="font-size:11px;color:var(--text-light)">CIIS应用心理学硕士 · 省研究会学组组长</div>
+      <div style="font-size:11px;color:var(--text-light);line-height:1.6">省社区研究会疗愈文化学组组长 · 高级茶艺师 · 国家旅游局旅游饭店总经理职业资格证 · 15年高星级酒店高层管理经验 + 10年民宿运营经验。曾在省高职院校任教服务管理学、茶艺传承、商务礼仪课程。在茶疗愈领域独具慧眼。</div>
     </div>
     <div style="background:white;border-radius:12px;padding:18px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.04)">
-      <div style="font-size:13px;font-weight:700;color:var(--dark)">刘不可</div>
-      <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">心理咨询师 / 愈商学社课程负责人</div>
-      <div style="font-size:11px;color:var(--text-light)">SRI自我整合执行师 · 音乐心理咨询师</div>
-    </div>
-    <div style="background:white;border-radius:12px;padding:18px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.04)">
-      <div style="font-size:13px;font-weight:700;color:var(--dark)">鲍瑛瑛</div>
-      <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">女性成长赋能者</div>
-      <div style="font-size:11px;color:var(--text-light)">16年心理成长经验 · 13年心理咨询从业</div>
+      <div style="font-size:13px;font-weight:700;color:var(--dark)">李晓春</div>
+      <div style="font-size:11px;color:var(--gold-dark);margin:2px 0">商业化导师</div>
+      <div style="font-size:11px;color:var(--text-light);line-height:1.6">中旭教育科技公司公开课导师/金牌讲师、企业家私董会教练、杭州市创业导师 · 汉语言文学学士/MBA工商管理硕士 · 中科院心理所心理教育指导师 · 浙商大企业管理俱乐部主理人 · 浙江工商大学MBA学院实务导师。</div>
     </div>
   </div>
 </section>
 
-<!-- ========== 8. 年度目标 ========== -->
+<!-- ========== 8. 三年发展规划 ========== -->
 <section id="goals" class="fade-up">
-  <span class="section-label">2026 ANNUAL GOALS</span>
-  <h2>2026 年度目标</h2>
+  <span class="section-label">THREE-YEAR ROADMAP</span>
+  <h2>三年发展规划 · <span style="color:var(--green)">从0到行业标杆</span></h2>
+
+  <div style="max-width:800px;margin:0 auto 40px;text-align:center;color:var(--text-light);font-size:15px;line-height:1.8">
+    以<strong>疗愈师认证</strong>为核心引擎，<strong>企业EAP服务</strong>为落地场景，三年内完成「产品打磨→规模复制→生态闭环」的三级跳。
+  </div>
+
+  <!-- 三年总览卡片 -->
   <div class="goal-cards">
     <div class="goal-card student">
-      <div class="header">
-        <h3>🎓 学员招募</h3>
-        <span class="target">目标 100 人</span>
+      <div class="header"><h3>🎓 疗愈师认证业务</h3><span class="target">三年目标：500+人</span></div>
+      <p style="font-size:14px;margin-bottom:16px;opacity:.85">以UNIHEAL L1/L2认证为拳头产品，构建中国最大的国际认证疗愈师人才池</p>
+      <div style="background:rgba(0,0,0,.08);border-radius:10px;padding:16px;font-size:13px;line-height:2">
+        <strong>Year 1（夯实期）：</strong>完成课程体系标准化，招募100名种子学员，通过率稳定在65%+，建立口碑基盘<br>
+        <strong>Year 2（放量期）：</strong>线上课程规模化，年招生200+人，启动L2高级督导师体系，开始向机构输送人才<br>
+        <strong>Year 3（领跑期）：</strong>年招生200+人，累计500+认证疗愈师，成为华东地区疗愈师培训第一品牌
       </div>
-      <div class="progress-bar"><div class="progress-fill" style="width:10%"></div></div>
-      <div class="pg-text">已完成 10 人 · 缺口 90 人 · 月均需招 ~18 人</div>
-      <div style="font-size:13px;margin-top:8px;opacity:.8">⏰ 剩余 5 个月（截至2026年10月）</div>
     </div>
     <div class="goal-card enterprise">
-      <div class="header">
-        <h3>🏢 企业签约</h3>
-        <span class="target">目标 10 家</span>
+      <div class="header"><h3>🏢 企业EAP服务</h3><span class="target">三年目标：100家企业</span></div>
+      <p style="font-size:14px;margin-bottom:16px;opacity:.85">以KONGWO情绪管理品牌切入企业端，从沙龙到年度EAP合同，建立可复制的服务SOP</p>
+      <div style="background:rgba(255,255,255,.1);border-radius:10px;padding:16px;font-size:13px;line-height:2">
+        <strong>Year 1（破冰期）：</strong>聚焦20家标杆客户深度服务，打磨EAP服务SOP，沉淀案例库与ROI数据<br>
+        <strong>Year 2（拓展期）：</strong>拓展至40家企业，推出标准化EAP年度套餐（¥5-20万/年），建立销售团队<br>
+        <strong>Year 3（规模期）：</strong>覆盖100家企业客户，形成「培训→咨询→空间」一体化解决方案
       </div>
-      <div class="progress-bar"><div class="progress-fill" style="width:20%"></div></div>
-      <div class="pg-text">已完成 2 家 · 缺口 8 家 · 月均需签 ~1.6 家</div>
-      <div style="font-size:13px;margin-top:8px;opacity:.8">⏰ 剩余 5 个月（截至2026年10月）</div>
     </div>
   </div>
+
+  <!-- 年度里程碑时间线 -->
+  <div style="margin-top:44px">
+    <h3 style="font-size:20px;color:var(--dark);text-align:center;margin-bottom:32px">📅 关键里程碑</h3>
+
+    <!-- Year 1 -->
+    <div style="display:flex;gap:24px;margin-bottom:28px;align-items:flex-start">
+      <div style="flex-shrink:0;width:80px;text-align:center">
+        <div style="background:var(--gold);color:var(--dark);font-weight:800;font-size:18px;border-radius:12px;padding:12px 8px">Y1</div>
+        <div style="font-size:11px;color:var(--text-light);margin-top:4px">夯实基础</div>
+      </div>
+      <div style="flex:1;background:#FAFAFA;border-radius:14px;padding:24px;border-left:4px solid var(--gold)">
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;font-size:13.5px;line-height:1.7">
+          <div><strong style="color:var(--gold-dark)">✅ 产品标准化</strong><br>L1/L2课程体系定稿、教材上线、考核流程固化</div>
+          <div><strong style="color:var(--gold-dark)">✅ 种子用户</strong><br>100名L1学员毕业，首批20家标杆企业签约</div>
+          <div><strong style="color:var(--gold-dark)">✅ 内容基建</strong><br>四大平台内容矩阵搭建完毕，月均曝光10万+</div>
+          <div><strong style="color:var(--gold-dark)">✅ 案例沉淀</strong><br>10个完整企业EAP案例，形成可复用方案库</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Year 2 -->
+    <div style="display:flex;gap:24px;margin-bottom:28px;align-items:flex-start">
+      <div style="flex-shrink:0;width:80px;text-align:center">
+        <div style="background:var(--green);color:white;font-weight:800;font-size:18px;border-radius:12px;padding:12px 8px">Y2</div>
+        <div style="font-size:11px;color:var(--text-light);margin-top:4px">规模放量</div>
+      </div>
+      <div style="flex:1;background:#FAFAFA;border-radius:14px;padding:24px;border-left:4px solid var(--green)">
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;font-size:13.5px;line-height:1.7">
+          <div><strong style="color:var(--green)">🚀 规模化招生</strong><br>年招生200+人，L2督导师体系上线，学员转介绍率≥30%</div>
+          <div><strong style="color:var(--green)">🚀 企业扩张</strong><br>覆盖40家企业，标准化EAP套餐发布，组建3-5人销售团队</div>
+          <div><strong style="color:var(--green)">🚀 人才输出</strong><br>首批认证疗愈师向机构/平台输送，开启B2B2C模式</div>
+          <div><strong style="color:var(--green)">🚀 品牌势能</strong><br>主办1场区域性行业峰会，媒体曝光量累计100万+</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Year 3 -->
+    <div style="display:flex;gap:24px;margin-bottom:28px;align-items:flex-start">
+      <div style="flex-shrink:0;width:80px;text-align:center">
+        <div style="background:linear-gradient(135deg,var(--green),var(--gold));color:white;font-weight:800;font-size:18px;border-radius:12px;padding:12px 8px">Y3</div>
+        <div style="font-size:11px;color:var(--text-light);margin-top:4px">生态领跑</div>
+      </div>
+      <div style="flex:1;background:linear-gradient(135deg,#FDF8F0,#F5F9F5);border-radius:14px;padding:24px;border-left:4px solid var(--gold)">
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;font-size:13.5px;line-height:1.7">
+          <div><strong style="color:var(--green)">🏆 行业标杆</strong><br>累计500+认证疗愈师，100家服务企业，华东地区市占率领先</div>
+          <div><strong style="color:var(--green)">🏆 生态闭环</strong><br>「培训→就业→服务」飞轮自转，企业续约率≥60%</div>
+          <div><strong style="color:var(--green)">🏆 产品矩阵</strong><br>旅修/空间设计/设备三大新收入线占比提升至30%+</div>
+          <div><strong style="color:var(--green)">🏆 资本路径</strong><br>具备A轮融资条件，或实现盈亏平衡后的可持续增长</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 核心策略 -->
   <div class="strategies">
     <div class="strategy"><div class="s-icon">📱</div><h4>内容驱动获客</h4><p>公众号/视频号/抖音/小红书<br>全平台内容矩阵引流到私域</p></div>
     <div class="strategy"><div class="s-icon">🤝</div><h4>渠道合作拓展</h4><p>HR社群/MBA学院/行业协会<br>深度合作获客</p></div>
